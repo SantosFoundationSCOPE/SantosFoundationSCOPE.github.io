@@ -1,0 +1,27 @@
+---
+layout: default
+title: Portfolio
+---
+
+  <section class="content">
+    <h2>Portfolio</h2>
+    <p>Check out Our Ideas Below by clicking on their image or thier title!</p>
+  </section>
+   
+  <ul class="entries">
+    {% for post in site.posts %}
+   
+    <div id="ideadiv">
+      <a href="{{ post.url }}" id="postlink">
+        <h3>{{ post.title }}</h3>
+        <img id="ideapost" src="{{ post.image }}" width="900px"/>
+      </a>
+   </div>
+
+    {% endfor %}
+  </ul> 
+
+  <div class="story_tab">
+    <a href= "/contact_us/" class="link-fix"> Join the Conversation &#8594;
+    </a> 
+  </div>

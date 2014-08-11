@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<section id= "container">
+	<h1> Join the Conversation</h1>
+	<p>
+		<h3> Email us at: </h3>
+	santosresearch2014@gmail.com
+	</p>
+
+	<div id=" baseball">
+		<h1> Notable Quatables </h1>
+
+		<!-- Below isn't genertating anything. What can possibly be wrong?-->
+		<ul class="entries">
+	    {% for baseballcard in site.baseballcards %}
+	   
+		    <div id="ideadiv">
+		        <h3>{{ baseballcard.title }}</h3>
+		        <img id="ideapost" src="{{ baseballcard.image }}" width="900px"/>
+		   </div>
+
+	    {% endfor %}
+	  </ul> 
+	</div>
+
+</section>
+
+<!-- 
+   {% for post in site.posts %}
+   
+    <div id="ideadiv">
+      <a href="{{ post.url }}" id="postlink">
+        <h3>{{ post.title }}</h3>
+        <img id="ideapost" src="{{ post.image }}" width="900px"/>
+      </a>
+   </div>
+
+    {% endfor %} -->

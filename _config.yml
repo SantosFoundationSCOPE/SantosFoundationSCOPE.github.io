@@ -1,0 +1,11 @@
+# still dont understand source. 
+#source:
+
+#default is  _site folder, you can change it if you want
+# desitination: 
+
+#path to posts, defautl is /year/month/day/title.html 
+# permalink: 
+
+#ignore the following directories...
+exclude: _solutions
