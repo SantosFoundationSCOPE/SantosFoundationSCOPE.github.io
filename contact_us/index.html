@@ -5,43 +5,22 @@ layout: default
 <section id= "container">
 	<h1> Join the Conversation</h1>
 	<p>
-		<h3> Email us at: </h3>
-	santosresearch2014@gmail.com
-	</p>
-
-	<div id=" baseball">
-		<h1> Notable Quotables </h1>
-
-		<!-- Below isn't genertating anything. What can possibly be wrong?-->
-		<ul>
-			<li>“Why are we still having a substantial amount of death and accidents?” -Bryan</li>
-			<li>“I ride with the attitude that everyone can kill me.” -Nyall</li>
-			<li>“No one I know has bought a car for its safety.” -Cody</li>
-			<li>“Autonomous cars could eliminate lousy drivers.” -Jackie</li>
-			<li>“If we are all going to be autonomous, why don't we all just take the train?” -Linda</li>
+		<ul style= " list-style-type:none;">
+			<li>"Why are we still having a substantial amount of death and accidents?"" -Bryan</li>
+			<li>"I ride with the attitude that everyone can kill me."" -Nyall</li>
+			<li>"No one I know has bought a car for its safety." -Cody
+			</li>
+			<li>"Autonomous cars could eliminate lousy drivers." -Jackie</li>
+			<li>"If we are all going to be autonomous, why don't we all just take the train?" -Linda</li>
 		</ul>
-		<ul class="entries">
-	    {% for baseballcard in site.baseballcards %}
-	   
-		    <div id="ideadiv">
-		        <h3>{{ baseballcard.title }}</h3>
-		        <img id="ideapost" src="{{ baseballcard.image }}" width="900px"/>
-		   </div>
 
-	    {% endfor %}
-	  </ul> 
-	</div>
+		Have thoughts of your own that you would like to share? Want to participate or get involved in our project to prevent road fatalaties? 
+
+		<h3> Email us at: 
+			<a href="mailto:santosresearch2014@gmail.com">santosresearch2014@gmail.com</a> 
+		</h3>
+	
+	</p>	
+		
 
 </section>
-
-<!-- 
-   {% for post in site.posts %}
-   
-    <div id="ideadiv">
-      <a href="{{ post.url }}" id="postlink">
-        <h3>{{ post.title }}</h3>
-        <img id="ideapost" src="{{ post.image }}" width="900px"/>
-      </a>
-   </div>
-
-    {% endfor %} -->
