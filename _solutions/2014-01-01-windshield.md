@@ -40,12 +40,12 @@ image: /img/Windshield.png
 <ul>
 <li>Distraction
 <p>“Nearly 80 percent of crashes and 65 percent of near-crashes involved some form of driver inattention within three seconds before the event.”</p>
-<p>“Drivers are often unable to predict when it is safe to look away from the road to multi-task because the situation can change abruptly leaving the driver no time to react even when looking away from the forward roadway for only a brief time.” <a hres='http://www.nhtsa.gov/Driving+Safety/Distracted+Driving+at+Distraction.gov/Breakthrough+Research+on+Real-World+Driver+Behavior+Released'> NHTSA and VTT, 2010</a></p></li>
+<p>“Drivers are often unable to predict when it is safe to look away from the road to multi-task because the situation can change abruptly leaving the driver no time to react even when looking away from the forward roadway for only a brief time.” <a href='http://www.nhtsa.gov/Driving+Safety/Distracted+Driving+at+Distraction.gov/Breakthrough+Research+on+Real-World+Driver+Behavior+Released'> NHTSA and VTT, 2010</a>.</p></li>
 <li>Impaired judgment</li>
 <li>Visibility</li>
 <li>Thwarted expectation</li>
 <li>Eyes on the road
 <p>Airplane Pilot HUD impact: “The study found that 38 percent of all accidents were likely or highly likely to have been prevented if the pilot had a HUD. The study also came to the conclusion that
-a staggering 69 percent of landing and takeoff accidents and 57 percent of loss of control could have been avoided if the pilot had access to the information available on a HUD.” <a hres='https://www.rockwellcollins.com/~/media/Files/Unsecure/Products/Product%20Brochures/Displays/Head%20up%20displays/HGS-3500%20White-Paper.aspx'>Rockwell Collins, 2011</a></p></li>
+a staggering 69 percent of landing and takeoff accidents and 57 percent of loss of control could have been avoided if the pilot had access to the information available on a HUD.” <a href='https://www.rockwellcollins.com/~/media/Files/Unsecure/Products/Product%20Brochures/Displays/Head%20up%20displays/HGS-3500%20White-Paper.aspx'>Rockwell Collins, 2011</a>.</p></li>
 </ul>
 
