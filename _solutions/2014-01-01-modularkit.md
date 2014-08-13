@@ -31,3 +31,14 @@ image: /img/AddOns.png
 </p>
 <p><strong>PEAK</strong> backup camera feeds which replace rearview and side mirrors allow for a wider field of vision and maintain the same driver interaction.
 </p>
+
+<h4>Evidence of Impact</h4>
+<ul>
+<li>Addresses increased response time</li>
+<li>Avoids thwarted expectations</li>
+<li>Impaired driving
+<p>“Alcohol-involved crashes resulted in 13,323 fatalities, 430,000 nonfatal injuries”
+<a hres='http://www-nrd.nhtsa.dot.gov/Pubs/812013.pdf'>NHTSA, 2010</a></p></li>
+<li>Back-up camera availability
+<p>“There are 210 fatalities and 15,000 injuries per year caused by backover accidents, the agency said. Children under 5 and adults 70 and older account for more than half of all backover fatalities each year. NHTSA said that 58 to 69 lives will be saved each year once all cars and light trucks on the road have this technology.” <a hres='http://www.thedetroitbureau.com/2014/03/all-new-vehicles-must-have-backup-cameras-by-2018/'>Detroit Bureau, 2014</a></p></li>
+</ul>
