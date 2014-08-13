@@ -36,6 +36,13 @@ body{
   font-size: 32px;
   color: #ECF0F1;
   text-decoration: none;
+  min-width: 200px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 
 .center{
@@ -100,15 +107,47 @@ body{
   margin: 10px;
 }
 
+
+/*CONTACT_US*/
+#entries{
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+}
+
+.idea{
+  margin: 0px 25px 0px 25px;
+}
+
+.post_image{
+  width: 200px;
+  border: 1px solid black;
+}
+
+.post_image{
+  text-align: center;
+}
+
+#idea_filled{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.details{
+  max-width: 1000px;
+  min-width: 500px;
+}
+
 /*Story CSS*/
 
 .story_tab{
-  width: 300px;
   margin: 25px 0px 25px 0px;
   font-size: 27px;
   border-right: 0px;
   padding: 5px 0px 10px 15px;
-  background-color: #BDC3C7;
 }
 
 .link-fix{

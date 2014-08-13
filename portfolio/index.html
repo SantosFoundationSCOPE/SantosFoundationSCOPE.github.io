@@ -1,27 +1,38 @@
 ---
 layout: default
-title: Portfolio
+title: Project Ideas
 ---
-
-  <section class="content">
-    <h2>Portfolio</h2>
-    <p>Check out Our Ideas Below by clicking on their image or thier title!</p>
-  </section>
-   
-  <ul class="entries">
+<div class="center">
+  <div id="entries">
     {% for post in site.posts %}
    
-    <div id="ideadiv">
-      <a href="{{ post.url }}" id="postlink">
+    <div class="idea">
+      <a href="#{{ post.anchor }}" id="postlink">
         <h3>{{ post.title }}</h3>
-        <img id="ideapost" src="{{ post.image }}" width="900px"/>
+        <img class="post_image" src="{{ post.image }}" width="900px"/>
       </a>
    </div>
 
     {% endfor %}
-  </ul> 
+  </div> 
+
+  <div id="idea_filled">
+    {% for post in site.posts %}
+   
+    <div class="idea_description" id="#{{post.anchor}}">
+        <h3>{{ post.title }}</h3>
+        <img class="post_image_big" src="{{ post.image }}" width="900px"/>
+        <div class="details">
+          {{post.content}}
+        </div>
+   </div>
+
+    {% endfor %}
+
+  </div>
 
   <div class="story_tab">
     <a href= "/contact_us/" class="link-fix"> Join the Conversation &#8594;
     </a> 
   </div>
+</div>
