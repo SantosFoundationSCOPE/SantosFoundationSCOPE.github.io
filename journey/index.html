@@ -21,6 +21,20 @@ layout: default
 
 <!--baseball cards-->
 
+	<div id="dug_out">
+    {% for post in site.posts %}
+      {% if post.flag != "solution" %}
+   
+    <div class="baseball_cards">
+        <h3>{{ post.name }}</h3>
+        <img class="baseball_img" src="{{ post.image }}"/><br />
+        <span class="card_desc">{{post.description}}</span><br />
+        <span class="quote">"{{post.quote1}}"</span><br /><br />
+   </div>
+      {% endif %}
+    {% endfor %}
+	</div>
+
 	<div id="stats">
 <a id="STATS"><h2>Statistics and Situations</h2></a>
 <p>We performed extensive background research to understand the wide-open space that is auto safety.
