@@ -7,12 +7,12 @@ title: Project Ideas
     {% for post in site.posts %}
       {% if post.flag == "solution" %}
    
-    <div class="idea">
-      <a href="#{{ post.anchor }}" id="postlink">
-        <h3>{{ post.title }}</h3>
-        <img class="post_image" src="{{ post.image }}"/>
-      </a>
-   </div>
+        <div class="idea">
+          <a href="#{{ post.anchor }}" id="postlink">
+            <img class="post_image" src="{{ post.image }}"/>
+            <h3>{{ post.title }}</h3>
+          </a>
+       </div>
       {% endif %}
     {% endfor %}
   </div> 
