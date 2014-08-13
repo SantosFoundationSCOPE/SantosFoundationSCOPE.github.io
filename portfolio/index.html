@@ -5,6 +5,7 @@ title: Project Ideas
 <div class="center">
   <div id="entries">
     {% for post in site.posts %}
+      {% if post.flag == "solution" %}
    
     <div class="idea">
       <a href="#{{ post.anchor }}" id="postlink">
@@ -12,21 +13,24 @@ title: Project Ideas
         <img class="post_image" src="{{ post.image }}" width="900px"/>
       </a>
    </div>
+      {% endif %}
 
     {% endfor %}
   </div> 
 
   <div id="idea_filled">
     {% for post in site.posts %}
-   
-    <div class="idea_description" id="#{{post.anchor}}">
-        <h3>{{ post.title }}</h3>
-        <img class="post_image_big" src="{{ post.image }}" width="900px"/>
-        <div class="details">
-          {{post.content}}
-        </div>
-   </div>
+      {% if post.flag == "solution" %}
+     
+      <div class="idea_description" id="{{post.anchor}}">
+          <h3>{{ post.title }}</h3>
+          <img class="post_image_big" src="{{ post.image }}" width="900px"/>
+          <div class="details">
+            {{post.content}}
+          </div>
+     </div>
 
+      {% endif %}
     {% endfor %}
 
   </div>

@@ -1,8 +1,8 @@
 ---
-layout: portfolio_entry
 title: Smart Windshield
 image: /img/solution_images/Windshield.png
 anchor: windshield
+flag: "solution"
 ---
 
 Goal:

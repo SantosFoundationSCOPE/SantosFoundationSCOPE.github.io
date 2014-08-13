@@ -1,8 +1,8 @@
 ---
-layout: portfolio_entry
 title: Modular Add-Ons
 image: /img/solution_images/AddOns.png
 anchor: add_ons
+flag: "solution"
 ---
 Goal:
 Create a modular platform from which drivers can install the latest safety technologies without interfering with the aesthetics of their car. A platform with low cost and easy installation will provide drivers of all backgrounds access to the same safety technologies and hopefully speed up the trickle down effect of largely luxury safety features. 

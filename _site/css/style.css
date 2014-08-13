@@ -107,8 +107,17 @@ body{
   margin: 10px;
 }
 
+/*JOURNEY*/
+#journey{
+  min-width: 800px;
+  max-width: 1200px;
+  margin: 10px 0px 10px 0px;
+  font-size: 14px;
+  border: none;
+}
 
-/*CONTACT_US*/
+
+/*PROJECTS*/
 #entries{
    display: -webkit-flex;
    display: flex;
@@ -144,6 +153,7 @@ body{
 /*Story CSS*/
 
 .story_tab{
+  text-align: center;
   margin: 25px 0px 25px 0px;
   font-size: 27px;
   border-right: 0px;
