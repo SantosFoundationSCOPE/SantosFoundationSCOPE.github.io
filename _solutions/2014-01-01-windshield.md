@@ -41,7 +41,7 @@ image: /img/Windshield.png
 <li>Distraction
 <p>“Nearly 80 percent of crashes and 65 percent of near-crashes involved some form of driver inattention within three seconds before the event.”</p>
 <p>“drivers are often unable to predict when it is safe to look away from the road to multi-task because the situation can change abruptly leaving the driver no time to react even when looking away from the forward roadway for only a brief time.” <a hres='http://www.nhtsa.gov/Driving+Safety/Distracted+Driving+at+Distraction.gov/Breakthrough+Research+on+Real-World+Driver+Behavior+Released'> NHTSA and VTT, 2010</a></p></li>
-</li>Impaired judgment</li>
+<li>Impaired judgment</li>
 <li>Visibility</li>
 <li>Thwarted expectation</li>
 <li>Eyes on the road
