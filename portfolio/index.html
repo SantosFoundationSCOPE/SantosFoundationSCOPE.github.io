@@ -10,11 +10,10 @@ title: Project Ideas
     <div class="idea">
       <a href="#{{ post.anchor }}" id="postlink">
         <h3>{{ post.title }}</h3>
-        <img class="post_image" src="{{ post.image }}" width="900px"/>
+        <img class="post_image" src="{{ post.image }}"/>
       </a>
    </div>
       {% endif %}
-
     {% endfor %}
   </div> 
 
@@ -24,7 +23,7 @@ title: Project Ideas
      
       <div class="idea_description" id="{{post.anchor}}">
           <h3>{{ post.title }}</h3>
-          <img class="post_image_big" src="{{ post.image }}" width="900px"/>
+          <img class="post_image_big" src="{{ post.image }}"/>
           <div class="details">
             {{post.content}}
           </div>
