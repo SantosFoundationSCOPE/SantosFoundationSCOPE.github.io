@@ -154,7 +154,102 @@ Additionally, younger drivers cause a disproportionate number of accidents. Driv
             <canvas id="myChart" width="600" height="600">
             </canvas>
         </article>
-        <p> This above radar graph is a representation of all the people we codesigned with. Each person is ploted and ranked along the axes. This is a framework we use to show the extremity of the users. The idea here is that if we design for the extremes we would also be desiging for everyone inbetween.</p>
+        <style>
+        	table {
+        		display: inline-block;
+        		float:top;
+        	}
+        </style>
+
+        <table style="width:300px">
+			<tr>
+			  <th>Legend</th>
+			</tr>
+			<tr>
+			  <tr> <td style="color:rgb(172,235,173)"> Student 1</td>
+			  </tr>
+			  <tr> <td style="color:rgba(16,232,19,1)">Student 2</td>
+			  </tr>
+			  <tr> <td style="color:rgba(0,148,2,1)">Student 3</td>
+			  </tr>
+			  <tr> <td style="color:rgba(0,56,27,1)">Student 4</td>
+			  </tr>
+			  <tr> <td style="color:rgba(193,121,219,1)">Commuter 1</td>
+			  </tr>
+			  <tr> <td style="color:rgba(164,4,222,1)">Commuter 2</td>
+			  </tr>
+			  <tr> <td style="color:rgba(69,0,94,1)">Commuter 3</td>
+			  </tr>
+			  <tr> <td style="color:rgba(59,169,173,1)">Modifier 1</td>
+			  </tr>
+			  <tr> <td style="color:rgba(0,111,115,1)">Modifier 2</td>
+			  </tr>
+			  <tr> <td style="color:rgba(0,111,115,1)">Modifier 2</td>
+			  </tr>
+			  <tr> <td style="color:rgba(232,151,149,1)">Parent 1</td>
+			  </tr>
+			  <tr> <td style="color:rgba(240,34,26,1)">Parent 2</td>
+			  </tr>
+			  <tr> <td style="color:rgba(145,16,12,1)">Parent 3</td>
+			  </tr>
+			  <tr> <td style="color:rgba(173,237,76,1)">Small Car</td>
+			  </tr>
+			  <tr> <td style="color:rgba(237,205,76,1)">Motocycle</td>
+			  </tr>
+			  <tr> <td style="color:rgba(255,3,234,1)">Passenger</td>
+			  </tr>
+			  <tr> <td style="color:rgba(255,145,0,1)">Fancy Car</td>
+			  </tr>
+			  <tr> <td style="color:rgba(255,3,234,1)">Old</td>
+			  </tr>
+		</table>
+
+		<table style="width:300px">
+			<tr>
+			  <th>Size of Car</th>
+			</tr>
+			<tr><td>10. Motorcycle</td></tr>
+			<tr><td>20. Smart Car</td></tr>
+			<tr><td>30. Sports Car (2 passenger)</td></tr>
+			<tr><td>40. Small Sedan</td></tr>
+			<tr><td>50. Full Size Sedan</td></tr>
+			<tr><td>60. Station Wagon / corssovers</td></tr>
+			<tr><td>70. Mid Size SUV</td></tr>
+			<tr><td>80. Full Size SUV</td></tr>
+			<tr><td>90. Vans</td></tr>
+			<tr><td>100. Trucks</td></tr>
+		</table>
+		<table style= "width:700px;">
+			<tr>
+				<th> Age</th>
+				<th> Enjoyment </th>
+				<th> Distance </th>
+				<th> Passengers </th>
+				<th> Number of Stops</th>
+				<th> Maintenance </th>	
+		</tr>
+			<tr><td>Approximate age of user not scaled</td>	
+				<td>Relative rating of enjoyment among the interviewed users </td>
+				<td>Average daily commute length. Max distance is capped at 100 miles. </td> 
+				<td>Average number of passengers on the trip. Scaled by 20.</td>
+				<td> The number of stops during their weekly max distance trip. Scaled by 10.</td>
+				<td>
+					The amount of maintenance they themselves put into the car, from sending it off to the mechanic whenever it's due to restoring entirely from a shell. Arbitraty scale.
+				</td>
+			</tr> 
+		</table>
+        <p> This above radar graph is a representation of all the people we codesigned with. This is a framework we use to show the extremity of the users. The idea here is that if we design for the extremes we would also be desiging for everyone inbetween. Each person is ploted and ranked along the axes. The sydonyms in the legend can be described by the following: by 
+        	<font color="green">student we mean young person</font>, by 
+        	<font color="blue">modifier we mean person who restores and modifies cars as a hobby
+        	</font>, by 
+        	<font color=" rgb(255,145,0)"> fancy car we mean someone with rare sports car
+        	</font>, by 
+        	<font color="rgb(151,187,205)">old we mean senior citizens</font>, by 
+        	<font color="rgb(255,3,234)">passenger we mean person who car pools
+        	</font>, and by 
+        	<font color="red">parent we mean "Soccer Mom/Dad" with passengers and multiple stops
+        	</font>. </p>
+
 	</div>
 	
 	<div class="story_tab">
