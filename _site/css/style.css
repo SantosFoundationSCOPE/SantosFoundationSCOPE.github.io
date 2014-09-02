@@ -3,7 +3,7 @@ html a{
 }
 
 body{
-  background: url('/img/halftone/halftone.png');
+  /*background: url('/img/halftone/halftone.png');*/
   background-repeat: repeat; 
   margin: 0;
   padding: 0;
