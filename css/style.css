@@ -45,8 +45,8 @@ body{
   justify-content: center;
 }
 
-.center{
-  width: 100%;
+#content{
+  margin: auto;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column; /* works with row or column */
@@ -57,9 +57,12 @@ body{
   justify-content: center;
 }
 
-#mission{
+.center{
   min-width: 800px;
   max-width: 1200px;
+}
+
+#mission{
   font-size: 24px;
   margin-left: 50px;
   margin-top: 10px;
@@ -71,13 +74,9 @@ body{
 #description{
   margin: 10px 0px 10px 0px;
   font-size: 18px;
-  min-width: 800px;
-  max-width: 1200px;
 }
 
 .design_principles{
-  min-width: 800px;
-  max-width: 1200px;
   margin: 10px 0px 10px 0px;
   font-size: 14px;
   border: none;
@@ -108,13 +107,6 @@ body{
 }
 
 /*JOURNEY*/
-#journey{
-  min-width: 800px;
-  max-width: 1200px;
-  margin: 10px 0px 10px 0px;
-  font-size: 14px;
-  border: none;
-}
 
 #dug_out{
   display: -webkit-flex;
@@ -139,24 +131,15 @@ body{
 
 .baseball_cards{
   width: 200px;
+  height: 350px;
+  margin: 5px;
 }
 
 .baseball_img{
-  width: 200px;
+  width: 150px;
 }
 
 /*PROJECTS*/
-#entries{
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-}
-
-.idea{
-  margin: 0px 25px 0px 25px;
-}
-
 .post_image{
   width: 200px;
   border: 1px solid black;
