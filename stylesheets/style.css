@@ -1,0 +1,293 @@
+/* 
+ *  RESET THE BROWSER TO UNIFORM
+ *  http://meyerweb.com/eric/tools/css/reset/ 
+ *  v2.0 | 20110126
+ *  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background: ghostwhite;
+}
+ol, ul {
+	list-style: none;
+}
+
+/* SCOPE STYLE - FOR USE OF SANTOS FAMILY FOUNDATION
+ * Kai Austin and the Santos Team
+ * December 2014
+ * 
+ * Index:
+ * Basic Standards
+ * Navigation Bar
+ * Section
+ * Footer
+ */
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	font-family: arial, helvetica, sans-serif;
+}
+a {
+	color: #5ea861;
+	text-decoration: none;
+}
+
+
+/* NAVIGATION BAR */
+nav {
+	background: #5EA861;
+	position: relative;
+	padding: 1em;
+	height: 3em;
+	color: white;
+	box-shadow: 0 0 10px 0px #000;
+	z-index: 1000;
+}
+nav img, nav ul, nav li {
+	display: inline-block;
+	vertical-align: middle;
+}
+nav img, nav ul {
+	height: 100%;
+}
+nav ul a {
+	display:inline-block;
+	padding: 1em;
+	color: white;
+}
+a:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+section {
+	min-height: 100%;
+}
+
+
+/* SECTIONS */
+section {
+	min-height: 100%;
+	overflow: hidden;
+}
+section h2 {
+	padding: 1em;
+	font-size: 2.5em;
+	font-variant: small-caps;
+	text-align: center;
+	opacity: 0.5;
+}
+#splash {
+	background: url("../images/intersection.jpg") no-repeat fixed center;
+	background-size: 100% 100%;
+}
+#splash h1 {
+	background: white;
+	display: inline-block;
+	padding: 5em 1em 5em 1em;
+	width: 10em;
+	color: #7e7e7e;
+	font-size: 4em;
+	opacity: 0.9;
+	border-radius: 0 10em 10em 0;
+	box-shadow: 0 0 1em 1em #fff;
+}
+.snippet {
+	display: block;
+	width: 55em;
+	margin: 1em auto 5em;
+}
+.snippet img{
+	display: inline-block;
+	vertical-align: top;
+	width: 400px;
+	margin: 0 3em 0 1em;
+	border-radius: 0 10em;
+	box-shadow: 0 0 10px -2px #000;
+	opacity: 0.8;
+}
+.snippet div {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 25em;
+}
+.snippet h3 {
+	padding-bottom: 0.5em;
+	font-size: 1.7em;
+	font-variant: small-caps;
+	opacity: 0.5;
+}
+.snippet ul {
+	list-style: circle;
+	padding-left: 2em;
+}
+.snippet p{
+	padding: 1em 2em;
+	text-align: right;
+}
+.snippet a {
+	color: #5ea861;
+	font-weight: 700;
+	font-variant: small-caps;
+}
+.snippet p:hover {
+	font-style: italic;
+}
+.snippet a::after {
+	content: ">>";
+	padding-left: 0.5em;
+}
+.block {
+	position: relative;
+	max-width: 70em;
+	margin: 0 auto;
+	padding: 0 5em;
+}
+.block div {
+	display: inline-block;
+	vertical-align: top;
+	padding: 1em;
+	width: 32em;
+	text-align: left;
+}
+.block.narrow {
+	text-align: center;	
+}
+.block.narrow div {
+	width: 25em;
+}
+.block h3 {
+	margin: 0.5em 0;
+	font-size: 1.5em;
+	color: #a1a1a1;;
+}
+#research img {
+	display: block;
+	margin: 0 1em 1em 0;
+	float: left;
+}
+
+#research p, .block p, .snippet li {
+	padding: 0.5em;
+	line-height: 1.5em;
+	font-size: 1.1em;
+	opacity: 0.8;
+}
+#research a {
+	opacity: 1;
+	color: #4b864d;
+}
+#research .block img {
+	width: 200px;
+}
+#research .block h3 img {
+	width: 100px;
+}
+#scope .block p {
+	line-height: 1.2em;
+	padding: 0.5em;
+}
+#research {
+	position: relative;
+	margin: 0 5em;
+}
+#research > ul {
+	position: absolute;
+	margin: 3em 2em;
+}
+#research > ul, .stats {
+	padding: 1em;
+	text-align: right;
+	text-transform: lowercase;
+	font-variant: small-caps;
+	font-weight: 700;
+	font-size: 1.2em;
+	line-height: 2em;
+	border-right: 1px solid #7e7e7e;
+	opacity: 0.5;
+}
+#research > ul li:hover {
+	cursor: pointer;
+	font-style: italic;
+}
+#research > div{
+	position: relative;
+	left: 14em;
+	max-width: 75%;
+}
+#research h2 {
+	text-align: left;
+	padding: 1em 0;
+}
+#research h3 {
+	margin: 1em 0 0 0;
+	font-size: 1.6em;
+	font-style: italic;
+	font-weight: 700;
+	text-transform: lowercase;
+	font-variant: small-caps;
+	text-align: center;
+	color: #a1a1a1;
+}
+.source {
+	display: inline-block;
+	vertical-align: top;
+	margin: -0.3em 0.3em;
+	font-size: 0.6em;
+	color: #254326;
+}
+ul.stats {
+
+}
+
+
+
+/* FOOTER */
+footer {
+	background: #091009;
+	margin-top: 2em;
+	color: ghostwhite;
+	padding: 0.5em 1em;
+}
+footer div, footer ul, footer li {
+	display: inline-block;
+	vertical-align: middle;
+}
+footer ul{
+	float: right;
+}
+footer ul li {
+	padding: 0 1em;
+	border-right: 1px solid white;
+}
+footer ul li:last-child {
+	border: none;
+}
