@@ -71,6 +71,10 @@ nav {
 	box-shadow: 0 0 10px 0px #000;
 	z-index: 1000;
 }
+nav.home {
+	position: fixed;
+	width: 100%;
+}
 nav img, nav ul, nav li {
 	display: inline-block;
 	vertical-align: middle;
